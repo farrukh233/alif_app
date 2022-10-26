@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Фаррух",
+      "surname": "Хайриддинов",
+      "phone": "12222222",
+      "adress": "yes",
+      "email": "farrukhx50@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Андрей",
+      "surname": "Барышев",
+      "phone": "222222222",
+      "adress": "yes",
+      "email": "andrey5@yandex.ru"
+    },
+    {
+      "id": 3,
+      "name": "Фаридун",
+      "surname": "Рабиев",
+      "phone": "3333333333",
+      "adress": "yes",
+      "email": "far55@mail.ru"
+    },
+    {
+      "id": 4,
+      "name": "Николай",
+      "surname": "Иванов",
+      "phone": "444444444",
+      "adress": "yes",
+      "email": "nek22@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Джон",
+      "surname": "Уайт",
+      "phone": "5555555555",
+      "adress": "yes",
+      "email": "england_best@gmail.com"
+    }
+  ]
+}

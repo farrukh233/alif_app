@@ -1,0 +1,78 @@
+* {
+  font-family: "Arial", serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+input {
+  border-radius: 1px;
+  border: 1px solid gainsboro;
+  font-size: 18px;
+}
+input::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-add_popup {
+  width: 150px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: gainsboro;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.btn-add_popup:hover {
+  background-color: #04aa6d;
+  color: #fff;
+}
+
+.btn-close_popup {
+  width: 150px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: gainsboro;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.btn-close_popup:hover {
+  background-color: gray;
+  color: #fff;
+}
+
+.popup {
+  width: 500px;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.popup h2 {
+  text-align: center;
+}
+
+.popup-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000050;
+}
